@@ -3,25 +3,12 @@
 body {
     font-family: "Ubuntu", sans-serif;
     /* sets font family for entire page */
-    background-color: #000000;
+    background-color: #1B5E20;
   }
   
   @font-face /*  Specifies Custom Font to display the text */ {
     font-family: myFirstFont;
     src: url(fonts/EMcomic-Bold.ttf);
-  }
-  
-  #loading {
-    position: fixed;
-    display: block;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    text-align: center;
-    opacity: 0.8;
-    background-color: #000000;
-    z-index: 99;
   }
   
   p {
@@ -47,16 +34,16 @@ body {
   
   /* NAVBAR SECTION */
   .navbar-expand-lg {
-    background-color: #000000;
+    background-color: #1B5E20;
     z-index: 2;
     height: 74px;
   }
   
   .navbar-brand {
     font-family: "elinga", "myFirstFont", "Roboto";
-    font-weight: 500;
-    /* font-size: 0.5rem; */
-    font-size: 56px;
+    font-weight: 100;
+    font-size: 57px;
+    color: #1B5E20; 
   }
   
   .nav-item
@@ -107,10 +94,10 @@ body {
   
   /* Style the INEBRIATES to red color */
   .homeHeading span {
-    color: black;
-    -webkit-text-stroke: 0.14vw rgb(44, 42, 42);
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.14vw #1B5E20;
     letter-spacing: 2px;
-    stroke: #ffa5d8;
+    stroke: #F57C00;
     stroke-width: 3;
     position: relative;
     animation: textAnimate 5s infinite alternate;
@@ -124,7 +111,7 @@ body {
     width: 0;
     height: 100%;
     color: rgb(246, 34, 34);
-    -webkit-text-stroke: 0vw rgb(44, 42, 42);
+    -webkit-text-stroke: 0vw #1B5E20;
     border-right: 3px solid rgb(246, 34, 34);
     overflow: hidden;
     animation: animate 6s linear infinite;
@@ -212,7 +199,7 @@ body {
   
   #categorySection {
     padding-top: 1%;
-    background-color: #6f1a07;
+    background-color: #F1F8E9;
     padding-bottom: 6%;
   }
   
@@ -225,7 +212,7 @@ body {
     font-size: 4.5rem;
     border: 1px solid #a8763e;
     background-color: white;
-    color: #6f1a07;
+    color: #1B5E20;
     padding: 1px 5px;
     font-family: "Roboto";
   }
