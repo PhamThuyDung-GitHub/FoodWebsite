@@ -485,7 +485,7 @@ body {
   /* HYGIENE SECTION */
   #healthySection {
     padding-top: 0.5%;
-    background-color: #000000;
+    background-color: #1B5E20;
     padding-bottom: 4%;
   }
   
@@ -525,7 +525,7 @@ body {
   }
   
   .borderLeft {
-    border-left: 1px solid black;
+    border-left: 1px solid #1B5E20;
   }
   
   .icon-wrapper {
@@ -557,7 +557,7 @@ body {
   textarea#address,
   textarea#note {
     background-color: white;
-    color: black;
+    color: #1B5E20;
     font-style: italic;
   }
   
@@ -670,7 +670,7 @@ body {
   /* TESTIMONIALS SECTION */
   #healthySection {
     padding-top: 0.5%;
-    background-color: #000000;
+    background-color: #1B5E20;
     padding-bottom: 4%;
   }
   
@@ -767,7 +767,7 @@ body {
   
   /* horizontal line after each selected item on cart */
   .cartHr {
-    color: black;
+    color: #1B5E20;
     width: 90%;
     margin: 5px auto;
   }
@@ -810,12 +810,12 @@ body {
   /* Scroll To Top Button Hover Over styles */
   #scrollToTop:hover {
     cursor: pointer;
-    background-color: #333;
+    background-color: #1B5E20;
   }
   
   /* After Scroll Top Button Has Been Clicked */
   #scrollToTop:active {
-    background-color: #555;
+    background-color: #1B5E20;
   }
   
   #scrollToTop.show {
@@ -855,7 +855,7 @@ body {
   }
   
   *::-webkit-scrollbar-thumb {
-    background-color: black;
+    background-color: #1B5E20;
     border: 1px solid white;
   }
   

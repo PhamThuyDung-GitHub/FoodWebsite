@@ -24,7 +24,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(#1B5E20, #1B5E20),
     url(images/bg.webp);
   background-position: center;
   background-size: cover;
@@ -102,7 +102,7 @@
 }
 .contactForm h2 {
   font-size: 30px;
-  color: #333;
+  color: #1B5E20;
   font-weight: 500;
 }
 .contactForm .inputBox {
@@ -117,7 +117,7 @@
   font-size: 16px;
   margin: 10px 0;
   border: none;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #1B5E20;
   outline: none;
   resize: none;
 }
@@ -130,7 +130,7 @@
   margin: 10px 0;
   pointer-events: none;
   transition: 0.5s;
-  color: #666;
+  color: #1B5E20;
 }
 .contactForm .inputBox input:focus ~ span,
 .contactForm .inputBox input:valid ~ span,
@@ -144,7 +144,7 @@
 .contactForm .inputBox input[type="submit"] {
   width: 100px;
   background: rgb(245, 245, 166);
-  color: rgba(0, 0, 0, 0.775);
+  color: #1B5E20;
   border: none;
   cursor: pointer;
   padding: 10px;
@@ -155,7 +155,7 @@
 }
 
 footer {
-  background-color: #0d1010;
+  background-color: #1B5E20;
   color: #ffc107;
   padding: 3% 0 2% 0;
 }
@@ -270,7 +270,7 @@ footer a {
 
 /* horizontal line after each selected item on cart */
 .cartHr {
-  color: black;
+  color: #1B5E20;
   width: 90%;
   margin: 5px auto;
 }
@@ -313,12 +313,12 @@ footer a {
 /* Scroll To Top Button Hover Over styles */
 #scrollToTop:hover {
   cursor: pointer;
-  background-color: #333;
+  background-color: #1B5E20;
 }
 
 /* After Scroll Top Button Has Been Clicked */
 #scrollToTop:active {
-  background-color: #555;
+  background-color: #1B5E20;
 }
 
 #scrollToTop.show {
@@ -356,7 +356,7 @@ footer a {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: black;
+  background-color: #1B5E20;
   border: 1px solid white;
 }
 
