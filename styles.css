@@ -4,6 +4,7 @@ body {
     font-family: "Ubuntu", sans-serif;
     /* sets font family for entire page */
     background-color: #1B5E20;
+    color: #1B5E20;
   }
   
   @font-face /*  Specifies Custom Font to display the text */ {
@@ -608,7 +609,7 @@ body {
   }
   
   footer {
-    background-color: #1B5E20 ;
+    background-color: #034307 ;
     color: #ffc107;
     padding: 3% 0 2% 0;
   }

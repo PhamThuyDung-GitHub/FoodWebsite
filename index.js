@@ -156,11 +156,6 @@ $(document).ready(function () {
     let foodAlreadyThere = false;
     let foodPos;
     let node;
-    if (isVeg) {
-      node = '<img class="vegIcon" src="./images/veg.webp" alt="" />';
-    } else {
-      node = '<img class="nonVegIcon" src="./images/non-veg.webp" alt="" />';
-    }
     for (var i = 0; i < food.length; i++) {
       if (food[i][0] === foodNameClicked) {
         foodAlreadyThere = true;
@@ -173,9 +168,9 @@ $(document).ready(function () {
 
     if (foodAlreadyThere) {
       food.splice(foodPos, 1);
-      food.push([foodNameClicked, foodQuantity, singleFoodAmount, node]);
+      food.push([foodNameClicked, foodQuantity, singleFoodAmount]);
     } else {
-      food.push([foodNameClicked, foodQuantity, singleFoodAmount, node]);
+      food.push([foodNameClicked, foodQuantity, singleFoodAmount]);
     }
 
     // Remove Food items with quantity = 0
