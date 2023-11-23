@@ -320,7 +320,7 @@ body {
   
   .menuHeading .col-12 h1 {
     text-align: center;
-    color: snow;
+    color: #1B5E20;
   }
   
   .menuHeading .col-auto {
@@ -339,7 +339,7 @@ body {
   }
   
   .shoppingCart i {
-    color: black;
+    color: #1B5E20;
   }
   
   .shoppingCartWithItems {
@@ -350,7 +350,7 @@ body {
     position: absolute;
     font-size: 0.7rem;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: #1B5E20;
     top: 1rem;
     right: 0px;
     color: white;
@@ -379,8 +379,8 @@ body {
     right: 0px;
     border-bottom: 20px solid #ffdab3;
     border-left: 20px solid #ffdab3;
-    border-right: 20px solid #6f1a07;
-    border-top: 20px solid #6f1a07;
+    border-right: 20px solid #1B5E20;
+    border-top: 20px solid #1B5E20;
     position: absolute;
     -webkit-filter: drop-shadow(-5px 5px 3px #a6a6a6);
     filter: drop-shadow(-5px 5px 3px #a6a6a6);
@@ -393,8 +393,8 @@ body {
     height: 0px;
     border-top: 30px solid #ffdab3;
     border-right: 30px solid #ffdab3;
-    border-left: 30px solid #6f1a07;
-    border-bottom: 30px solid #6f1a07;
+    border-left: 30px solid #1B5E20;
+    border-bottom: 30px solid #1B5E20;
     bottom: 0px;
     left: 0px;
     position: absolute;
@@ -451,7 +451,7 @@ body {
   .quantity {
     background-color: snow;
     display: flex;
-    border: 1px solid black;
+    border: 1px solid #1B5E20;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -608,7 +608,7 @@ body {
   }
   
   footer {
-    background-color: #0d1010;
+    background-color: #1B5E20 ;
     color: #ffc107;
     padding: 3% 0 2% 0;
   }
@@ -692,7 +692,7 @@ body {
     font-size: 4.5rem;
     border: 1px solid #a8763e;
     background-color: white;
-    color: #6f1a07;
+    color: #1B5E20;
     padding: 1px 5px;
     font-family: "Roboto";
     text-align: center;
